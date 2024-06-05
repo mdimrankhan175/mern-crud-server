@@ -1,7 +1,7 @@
 import User from '../schema/user-schema.js';
 
 
-    // Save data of the user in database
+// Save data of the user in database
 export const addUser = async (request, response) => {
     const user = request.body;
     
